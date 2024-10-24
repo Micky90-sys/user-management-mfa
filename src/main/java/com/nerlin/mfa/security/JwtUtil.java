@@ -11,10 +11,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
-@Component("jwtUtilSecurity")  // Nome del bean specificato
+@Component("jwtUtilSecurity")  
 public class JwtUtil {
 
-    private String secret = "another_secret_key"; // Chiave segreta
+    private String secret = "another_secret_key"; 
 
     public String generateToken(UserDetails userDetails) {
         Map<String, Object> claims = new HashMap<>();
