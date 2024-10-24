@@ -61,5 +61,5 @@ public class User implements UserDetails {
         return true;
     }
 
-    // Getters and Setters for other fields
+    
 }
