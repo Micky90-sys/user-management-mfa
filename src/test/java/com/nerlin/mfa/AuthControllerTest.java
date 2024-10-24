@@ -50,7 +50,7 @@ public class AuthControllerTest {
         Mockito.when(authenticationManager.authenticate(Mockito.any()))
                 .thenReturn(authentication);
 
-        // Mock del comportamento di JwtUtil
+        
         Mockito.when(jwtUtil.generateToken(Mockito.any(UserDetails.class)))
                 .thenReturn("fake-jwt-token");
 
