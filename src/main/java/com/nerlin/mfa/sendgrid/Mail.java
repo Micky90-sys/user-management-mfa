@@ -14,7 +14,7 @@ public class Mail {
     }
 
     public String build() {
-        // Simula la costruzione del messaggio
+        
         return "Mail{" +
                "from=" + from.getEmail() +
                ", subject='" + subject + '\'' +
