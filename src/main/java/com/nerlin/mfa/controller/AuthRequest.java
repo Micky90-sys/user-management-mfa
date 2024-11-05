@@ -4,7 +4,7 @@ public class AuthRequest {
     private String username;
     private String password;
 
-    // Getter e setter
+    
     public String getUsername() {
         return username;
     }
