@@ -25,7 +25,7 @@ public class SendGridService {
     }
 
     public String sendEmail(String to, String subject, String body) {
-        Email from = new Email("noreply@yourapp.com");  // Cambia con il tuo indirizzo email
+        Email from = new Email("makaya90@gmail.com");  // Cambia con il tuo indirizzo email
         Email toEmail = new Email(to);
         Content content = new Content("text/plain", body);
         Mail mail = new Mail(from, subject, toEmail, content);
