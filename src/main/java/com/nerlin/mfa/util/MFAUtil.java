@@ -13,7 +13,7 @@ public class MFAUtil {
     @Value("${sendgrid.api.key}")
     private String sendGridApiKey;
 
-    // Metodo per inviare il codice di verifica
+    
     public String sendVerificationCode(String email) throws IOException {
         String code = generateVerificationCode(); // Genera un codice di verifica
 
