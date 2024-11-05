@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class TwilioService {
 
-    // Inserisci qui le tue credenziali Twilio
+    // Inserisci le tue credenziali Twilio
     public static final String ACCOUNT_SID = "YOUR_TWILIO_ACCOUNT_SID";
     public static final String AUTH_TOKEN = "YOUR_TWILIO_AUTH_TOKEN";
     public static final String FROM_PHONE = "YOUR_TWILIO_PHONE_NUMBER";
