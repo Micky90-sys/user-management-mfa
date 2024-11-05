@@ -6,7 +6,7 @@ public class MFARequest {
     private String password;
     private String mfaCode;
 
-    // Getter e Setter
+    
     public String getUsername() {
         return username;
     }
