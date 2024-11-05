@@ -63,7 +63,7 @@ class LoginRequest {
     private String username;
     private String password;
 
-    // Getter e Setter
+    
     public String getUsername() {
         return username;
     }
