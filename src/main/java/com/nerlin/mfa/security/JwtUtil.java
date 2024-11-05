@@ -41,7 +41,7 @@ public class JwtUtil {
         return expiration.before(new Date());
     }
 
-    // Metodo aggiunto per verificare la validità del token
+    
     public Boolean isTokenValid(String token) {
         try {
             // Verifica che il token non sia scaduto
